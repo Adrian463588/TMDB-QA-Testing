@@ -133,6 +133,33 @@ verifyMovieNotInFavorites(movieTitle) {
     cy.contains("h2", movieTitle).should("not.exist");
 }
 ```
+## Hasil Automate Testing
+
+### Gambar 4: 3 dari 5 Scenario Berhasil
+![Hasil Testing - Scenario](img/5.png)
+
+**Scenario yang Berhasil:**
+1. User tidak bisa memberikan favorite saat belum login.
+2. User bisa memberikan favorite saat login.
+3. User bisa menghapus film dari daftar favorite.
+
+---
+
+### Gambar 5: Pengujian Automate Gagal pada Fitur Ganti Bahasa
+![Pengujian Gagal - Ganti Bahasa](img/6.png)
+
+**Deskripsi Masalah:**  
+Pengujian untuk fitur ganti bahasa gagal karena tombol untuk reload page tidak muncul.
+
+---
+
+### Gambar 6: Pengujian Automate Gagal pada Sorting Favorite List
+![Pengujian Gagal - Sorting Favorite](img/7.png)
+
+**Deskripsi Masalah:**  
+Pengujian sorting pada daftar favorite gagal karena elemen yang diperlukan tidak muncul.
+
+---
 
 
 ## Feedback untuk Tim UI/UX dan Pengembangan:
@@ -141,6 +168,34 @@ verifyMovieNotInFavorites(movieTitle) {
 - Ditemukan bug saat menghapus film langsung dari daftar favorit.
 - Bug notifikasi bertumpuk saat menambahkan favorit.
 - Bug dropdown pada ukuran layar kecil yang menyebabkan masalah pemisahan tata letak.
+
+## Masalah yang Perlu Diperhatikan oleh UI/UX dan Developer
+
+### Gambar 1: Notifikasi Bertumpuk Saat Menambahkan Favorite
+![Notifikasi Bertumpuk](img/1.png)
+
+**Deskripsi Masalah:**  
+Pada saat user menambahkan item ke favorite, terdapat bug di mana notifikasi bertumpuk muncul.
+
+---
+
+### Gambar 2: Bug pada Dropdown di Layar Kecil
+![Bug Dropdown](img/2.png)
+
+**Deskripsi Masalah:**  
+Dropdown mengalami masalah dan tidak berfungsi dengan baik pada layar kecil.
+
+---
+
+### Gambar 3: Bug pada Sidebar di Layar Kecil
+![Bug Sidebar](img/3.png)
+
+**Deskripsi Masalah:**  
+Sidebar mengalami bug dan tampil tidak sesuai saat dilihat pada layar kecil.
+
+---
+
+
 
 
 ## Yang Sudah Dikerjakan
