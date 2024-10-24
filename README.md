@@ -133,6 +133,10 @@ verifyMovieNotInFavorites(movieTitle) {
     cy.contains("h2", movieTitle).should("not.exist");
 }
 ```
+## Video Uji Coba Automate Testing
+[Klik di sini untuk menonton video uji coba automate testing, dari clone github hingga menjalankannya](https://drive.google.com/file/d/1tufhtQRi_RX5FX_MSggKgyNB_InbM5da/view?usp=sharing)
+
+
 ## Hasil Automate Testing
 
 ### 3 dari 5 Scenario Berhasil
