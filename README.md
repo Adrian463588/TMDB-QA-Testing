@@ -134,7 +134,7 @@ verifyMovieNotInFavorites(movieTitle) {
 }
 ```
 ## Video Uji Coba Automate Testing
-[Klik di sini untuk menonton video uji coba automate testing, dari clone github hingga menjalankannya](https://drive.google.com/file/d/1tufhtQRi_RX5FX_MSggKgyNB_InbM5da/view?usp=sharing)
+[Klik di sini untuk menonton video uji coba automate testing, dari clone github hingga menjalankannya](https://drive.google.com/file/d/1eXLe04-kEHzkkW21UbcS5QpBWGneBaU-/view?usp=sharing)
 
 
 ## Hasil Automate Testing
