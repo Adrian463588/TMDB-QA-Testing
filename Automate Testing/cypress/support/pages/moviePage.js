@@ -4,7 +4,7 @@ class MoviePage {
   }
 
   clickFavoriteIcon() {
-    cy.xpath('//*[@id="favourite"]').click({force: true});
+    cy.xpath('//*[@id="favourite"]').click();
   }
 
   changeLanguage(language) {
