@@ -135,7 +135,7 @@ verifyMovieNotInFavorites(movieTitle) {
 ```
 ## Hasil Automate Testing
 
-### Gambar 4: 3 dari 5 Scenario Berhasil
+### 3 dari 5 Scenario Berhasil
 ![Hasil Testing - Scenario](img/5.png)
 
 **Scenario yang Berhasil:**
@@ -145,7 +145,7 @@ verifyMovieNotInFavorites(movieTitle) {
 
 ---
 
-### Gambar 5: Pengujian Automate Gagal pada Fitur Ganti Bahasa
+### Pengujian Automate Gagal pada Fitur Ganti Bahasa
 ![Pengujian Gagal - Ganti Bahasa](img/6.png)
 
 **Deskripsi Masalah:**  
@@ -153,7 +153,7 @@ Pengujian untuk fitur ganti bahasa gagal karena tombol untuk reload page tidak m
 
 ---
 
-### Gambar 6: Pengujian Automate Gagal pada Sorting Favorite List
+### Pengujian Automate Gagal pada Sorting Favorite List
 ![Pengujian Gagal - Sorting Favorite](img/7.png)
 
 **Deskripsi Masalah:**  
@@ -171,7 +171,7 @@ Pengujian sorting pada daftar favorite gagal karena elemen yang diperlukan tidak
 
 ## Masalah yang Perlu Diperhatikan oleh UI/UX dan Developer
 
-### Gambar 1: Notifikasi Bertumpuk Saat Menambahkan Favorite
+### Notifikasi Bertumpuk Saat Menambahkan Favorite
 ![Notifikasi Bertumpuk](img/1.png)
 
 **Deskripsi Masalah:**  
@@ -179,7 +179,7 @@ Pada saat user menambahkan item ke favorite, terdapat bug di mana notifikasi ber
 
 ---
 
-### Gambar 2: Bug pada Dropdown di Layar Kecil
+### Bug pada Dropdown di Layar Kecil
 ![Bug Dropdown](img/2.png)
 
 **Deskripsi Masalah:**  
@@ -187,7 +187,7 @@ Dropdown mengalami masalah dan tidak berfungsi dengan baik pada layar kecil.
 
 ---
 
-### Gambar 3: Bug pada Sidebar di Layar Kecil
+### Bug pada Sidebar di Layar Kecil
 ![Bug Sidebar](img/3.png)
 
 **Deskripsi Masalah:**  
