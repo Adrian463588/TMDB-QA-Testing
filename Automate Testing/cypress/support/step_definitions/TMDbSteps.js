@@ -44,8 +44,7 @@ When("the user logs in with valid credentials", () => {
 
 When("the user navigates to the homepage", () => {
   // Find and click the logo element to go to the homepage
-  cy.get('a.logo[aria-label="Beranda"]').click({force: true});
-  cy.wait(3000); // Wait for the page to load
+  cy.get('a.logo[aria-label="Beranda"]').click(); 
 });
 
 Then("the movie should be added to the user's favorite list", (movieTitle) => {
@@ -101,6 +100,6 @@ When('the user sorts the movies in their favorite list', () => {
 });
 
 
-Then('the movies will be sorted as the user wants', () => {
+Then('the movie will be sorted as the user wants', () => {
   profilePage.verifySortedMovies();
 });
